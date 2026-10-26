@@ -1,0 +1,730 @@
+{
+  "compatibilityLevel": 1606,
+  "model": {
+    "annotations": [
+      {
+        "name": "PBI_QueryOrder",
+        "value": "[\"HR\"]"
+      },
+      {
+        "name": "__PBI_TimeIntelligenceEnabled",
+        "value": "0"
+      },
+      {
+        "name": "PBI_ProTooling",
+        "value": "[\"DevMode\"]"
+      }
+    ],
+    "culture": "en-US",
+    "cultures": [
+      {
+        "name": "en-US",
+        "linguisticMetadata": {
+          "content": {
+            "Entities": {
+              "hr.active_employees": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "HR",
+                    "ConceptualProperty": "Active Employees"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "Active Employees": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "hr.attrited_employees": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "HR",
+                    "ConceptualProperty": "Attrited Employees"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "Attrited Employees": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "hr.attrition_rate_": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "HR",
+                    "ConceptualProperty": "Attrition Rate %"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "Attrition Rate": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "hr.avg_age": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "HR",
+                    "ConceptualProperty": "Avg Age"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "Avg Age": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "hr.avg_income__active": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "HR",
+                    "ConceptualProperty": "Avg Income - Active"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "Avg Income (Active)": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "hr.avg_income__attrited": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "HR",
+                    "ConceptualProperty": "Avg Income - Attrited"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "Avg Income (Attrited)": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "hr.avg_job_satisfaction": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "HR",
+                    "ConceptualProperty": "Avg Job Satisfaction"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "Avg Job Satisfaction (1-4)": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "hr.avg_monthly_income": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "HR",
+                    "ConceptualProperty": "Avg Monthly Income"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "Avg Monthly Income": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "hr.avg_years_at_company": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "HR",
+                    "ConceptualProperty": "Avg Years at Company"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "Avg Years at Company": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "hr.nonovertime_attrition_rate": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "HR",
+                    "ConceptualProperty": "Non-Overtime Attrition Rate"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "Non-OverTime Attrition Rate": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "hr.overtime_attrition_rate": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "HR",
+                    "ConceptualProperty": "Overtime Attrition Rate"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "OverTime Attrition Rate": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "hr.total_employees": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "HR",
+                    "ConceptualProperty": "Total Employees"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "Headcount": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              }
+            },
+            "Language": "en-US",
+            "Version": "2.0.0"
+          },
+          "contentType": "json"
+        }
+      }
+    ],
+    "dataAccessOptions": {
+      "legacyRedirects": true,
+      "returnErrorValuesAsNull": true
+    },
+    "defaultPowerBIDataSourceVersion": "powerBI_V3",
+    "sourceQueryCulture": "en-US",
+    "tables": [
+      {
+        "name": "HR",
+        "columns": [
+          {
+            "name": "Age",
+            "dataType": "int64",
+            "lineageTag": "cb27ff6f-237e-459f-97f5-1fde7c694384",
+            "sourceColumn": "Age",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Attrition",
+            "dataType": "string",
+            "lineageTag": "77a83168-58c2-4621-b5b2-9d9187d3a988",
+            "sourceColumn": "Attrition",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "BusinessTravel",
+            "dataType": "string",
+            "lineageTag": "c98d9086-414a-40c7-8159-f3a48fb3ecd7",
+            "sourceColumn": "BusinessTravel",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "DailyRate",
+            "dataType": "int64",
+            "lineageTag": "94c6e2f4-c254-465b-8b3b-dd8ecce4551a",
+            "sourceColumn": "DailyRate",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Department",
+            "dataType": "string",
+            "lineageTag": "edd40278-0f56-44dc-8ecd-1f9f410346a4",
+            "sourceColumn": "Department",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "DistanceFromHome",
+            "dataType": "int64",
+            "lineageTag": "c42bbe19-c462-4f29-9a8a-c590f6602299",
+            "sourceColumn": "DistanceFromHome",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Education",
+            "dataType": "int64",
+            "lineageTag": "e12f8f3b-7ba7-477c-a629-7ecd121a2000",
+            "sourceColumn": "Education",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "EducationField",
+            "dataType": "string",
+            "lineageTag": "98b69e33-0b9c-48dd-90ef-288778a6335a",
+            "sourceColumn": "EducationField",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "EmployeeNumber",
+            "dataType": "int64",
+            "lineageTag": "d4a964a0-9910-4e10-ac44-c4812d681e26",
+            "sourceColumn": "EmployeeNumber",
+            "summarizeBy": "count"
+          },
+          {
+            "name": "EnvironmentSatisfaction",
+            "dataType": "int64",
+            "lineageTag": "ba5dbf5f-9c36-4a88-99ba-78d32a04e599",
+            "sourceColumn": "EnvironmentSatisfaction",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Gender",
+            "dataType": "string",
+            "lineageTag": "b975642e-e664-4b08-bd73-b885f02b4348",
+            "sourceColumn": "Gender",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "HourlyRate",
+            "dataType": "int64",
+            "lineageTag": "6b1afc4e-cfcc-4576-9d1a-ec9a3600a9f6",
+            "sourceColumn": "HourlyRate",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "JobInvolvement",
+            "dataType": "int64",
+            "lineageTag": "a4d43b42-defe-4737-83a4-1e1962896df3",
+            "sourceColumn": "JobInvolvement",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "JobLevel",
+            "dataType": "int64",
+            "lineageTag": "e4417b0a-c5b1-4292-adba-4fb94a45edb8",
+            "sourceColumn": "JobLevel",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "JobRole",
+            "dataType": "string",
+            "lineageTag": "485849d7-db65-4896-b7ac-dc9ed8820d49",
+            "sourceColumn": "JobRole",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "JobSatisfaction",
+            "dataType": "int64",
+            "lineageTag": "aaec16c5-9010-475a-a81c-a82c7a31b79d",
+            "sourceColumn": "JobSatisfaction",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "MaritalStatus",
+            "dataType": "string",
+            "lineageTag": "89049221-2dab-4a07-885e-c6bf7cf191bd",
+            "sourceColumn": "MaritalStatus",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "MonthlyIncome",
+            "dataType": "int64",
+            "formatString": "#,0",
+            "lineageTag": "7bea2ca5-eb56-46ec-9edd-14129fe3bdf4",
+            "sourceColumn": "MonthlyIncome",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "MonthlyRate",
+            "dataType": "int64",
+            "lineageTag": "d16c226e-db62-43c5-9598-a3b144dd3643",
+            "sourceColumn": "MonthlyRate",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "NumCompaniesWorked",
+            "dataType": "int64",
+            "lineageTag": "c25552f7-b73e-47aa-a1a1-944efbf9fd19",
+            "sourceColumn": "NumCompaniesWorked",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "OverTime",
+            "dataType": "string",
+            "lineageTag": "e2a3b622-51f9-4b8d-9b3b-6cac850d2eb7",
+            "sourceColumn": "OverTime",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "PercentSalaryHike",
+            "dataType": "int64",
+            "lineageTag": "81d52a67-4318-41dd-b78c-b9e054f0cd5c",
+            "sourceColumn": "PercentSalaryHike",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "PerformanceRating",
+            "dataType": "int64",
+            "lineageTag": "e57884b5-8e83-4ccc-94ab-c1e3cedddbbd",
+            "sourceColumn": "PerformanceRating",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "RelationshipSatisfaction",
+            "dataType": "int64",
+            "lineageTag": "057cd984-866b-4104-974a-7c0f79ddf2ac",
+            "sourceColumn": "RelationshipSatisfaction",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "StockOptionLevel",
+            "dataType": "int64",
+            "lineageTag": "540bc20e-3905-475e-bc8e-774b0a42866a",
+            "sourceColumn": "StockOptionLevel",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "TotalWorkingYears",
+            "dataType": "int64",
+            "lineageTag": "7a2340e3-c924-4c84-aefa-3046173650ac",
+            "sourceColumn": "TotalWorkingYears",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "TrainingTimesLastYear",
+            "dataType": "int64",
+            "lineageTag": "e96ae8e2-1e6f-4c87-8b19-db0904a366c3",
+            "sourceColumn": "TrainingTimesLastYear",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "WorkLifeBalance",
+            "dataType": "int64",
+            "lineageTag": "23b70639-954f-4f70-b582-5acbef62d705",
+            "sourceColumn": "WorkLifeBalance",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "YearsAtCompany",
+            "dataType": "int64",
+            "lineageTag": "d0bf0d74-2842-4866-b3b3-525e052fa852",
+            "sourceColumn": "YearsAtCompany",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "YearsInCurrentRole",
+            "dataType": "int64",
+            "lineageTag": "c4a7c9fc-f186-401e-8a76-df5a1a939273",
+            "sourceColumn": "YearsInCurrentRole",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "YearsSinceLastPromotion",
+            "dataType": "int64",
+            "lineageTag": "f24d66e0-5866-4240-a9ca-d4e67308aec0",
+            "sourceColumn": "YearsSinceLastPromotion",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "YearsWithCurrManager",
+            "dataType": "int64",
+            "lineageTag": "6bb112ee-0e43-4c05-9428-3acd31ad2c31",
+            "sourceColumn": "YearsWithCurrManager",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "AttritionFlag",
+            "dataType": "int64",
+            "lineageTag": "0e700d3b-5067-4a8d-a72a-441a5563b643",
+            "sourceColumn": "AttritionFlag",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Age Band",
+            "dataType": "string",
+            "lineageTag": "c6a051dd-f453-4e2b-bfe0-26697b5d1b25",
+            "sortByColumn": "Age Band Sort",
+            "sourceColumn": "Age Band",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Age Band Sort",
+            "dataType": "int64",
+            "isHidden": true,
+            "lineageTag": "36153705-a62d-4389-a72b-c2e2582bf86b",
+            "sourceColumn": "Age Band Sort",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Income Band",
+            "dataType": "string",
+            "lineageTag": "8ed38537-74c3-42ed-80e6-2752d488f6a5",
+            "sortByColumn": "Income Band Sort",
+            "sourceColumn": "Income Band",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Income Band Sort",
+            "dataType": "int64",
+            "isHidden": true,
+            "lineageTag": "02c4d7f2-3a32-45b5-a10a-3cbee4b7eb50",
+            "sourceColumn": "Income Band Sort",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Tenure Band",
+            "dataType": "string",
+            "lineageTag": "0610e7ce-9a61-4aa9-98cb-f5778adc777d",
+            "sortByColumn": "Tenure Band Sort",
+            "sourceColumn": "Tenure Band",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Tenure Band Sort",
+            "dataType": "int64",
+            "isHidden": true,
+            "lineageTag": "7cbfa791-0d70-4c8a-af70-f46d52535524",
+            "sourceColumn": "Tenure Band Sort",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Job Satisfaction Level",
+            "dataType": "string",
+            "lineageTag": "c813026b-3fbf-4f41-aa0c-df23a7b44eec",
+            "sourceColumn": "Job Satisfaction Level",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Environment Satisfaction Level",
+            "dataType": "string",
+            "lineageTag": "65050c97-3a42-4d11-815e-7792c3beb248",
+            "sourceColumn": "Environment Satisfaction Level",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Work-Life Balance Level",
+            "dataType": "string",
+            "lineageTag": "842c35af-654a-4317-8a92-c6fc5a884509",
+            "sourceColumn": "Work-Life Balance Level",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Business Travel",
+            "dataType": "string",
+            "lineageTag": "dfddd6d2-75c5-4fe6-acc8-32a1bf47654b",
+            "sourceColumn": "Business Travel",
+            "summarizeBy": "none"
+          }
+        ],
+        "lineageTag": "b071c542-b244-45ea-8361-76528673e21f",
+        "measures": [
+          {
+            "name": "Total Employees",
+            "displayFolder": "KPIs",
+            "expression": "COUNTROWS ( HR )",
+            "formatString": "#,0",
+            "lineageTag": "76b8ba3d-b882-42d1-b942-be364eba4969"
+          },
+          {
+            "name": "Attrited Employees",
+            "displayFolder": "KPIs",
+            "expression": "SUM ( HR[AttritionFlag] )",
+            "formatString": "#,0",
+            "lineageTag": "ae238e32-b84a-4a86-a06e-c4dd4dbc1c97"
+          },
+          {
+            "name": "Active Employees",
+            "displayFolder": "KPIs",
+            "expression": "[Total Employees] - [Attrited Employees]",
+            "formatString": "#,0",
+            "lineageTag": "6ccb7734-5ca8-49e2-902d-da87f149822c"
+          },
+          {
+            "name": "Attrition Rate %",
+            "displayFolder": "KPIs",
+            "expression": "DIVIDE ( [Attrited Employees], [Total Employees] )",
+            "formatString": "0.0%",
+            "lineageTag": "f5153108-2c7e-4145-acd3-6e5c7b97b38d"
+          },
+          {
+            "name": "Retention Rate %",
+            "displayFolder": "KPIs",
+            "expression": "1 - [Attrition Rate %]",
+            "formatString": "0.0%",
+            "lineageTag": "34df6e67-fffc-4db6-ad2c-5678a91ac58f"
+          },
+          {
+            "name": "Avg Monthly Income",
+            "displayFolder": "KPIs",
+            "expression": "AVERAGE ( HR[MonthlyIncome] )",
+            "formatString": "$#,0",
+            "lineageTag": "c9ef360e-6cc4-40e2-b8a2-957bfe52d219"
+          },
+          {
+            "name": "Avg Age",
+            "displayFolder": "KPIs",
+            "expression": "AVERAGE ( HR[Age] )",
+            "formatString": "0.0",
+            "lineageTag": "0218139c-6674-4169-a0c3-c2d968b3afff"
+          },
+          {
+            "name": "Avg Years at Company",
+            "displayFolder": "KPIs",
+            "expression": "AVERAGE ( HR[YearsAtCompany] )",
+            "formatString": "0.0",
+            "lineageTag": "135f34ad-7496-4229-943c-f289d835d810"
+          },
+          {
+            "name": "Overtime Attrition Rate",
+            "displayFolder": "KPIs",
+            "expression": "CALCULATE ( [Attrition Rate %], HR[OverTime] = \"Yes\" )",
+            "formatString": "0.0%",
+            "lineageTag": "058031f5-41ac-4af8-acbf-0d9cc121fc9d"
+          },
+          {
+            "name": "Non-Overtime Attrition Rate",
+            "displayFolder": "KPIs",
+            "expression": "CALCULATE ( [Attrition Rate %], HR[OverTime] = \"No\" )",
+            "formatString": "0.0%",
+            "lineageTag": "c3cf5070-61f1-4590-9c36-bfeea2cfac57"
+          },
+          {
+            "name": "Avg Job Satisfaction",
+            "displayFolder": "KPIs",
+            "expression": "AVERAGE ( HR[JobSatisfaction] )",
+            "formatString": "0.00",
+            "lineageTag": "931deff5-42fc-4d51-9421-f1c1c1ed1269"
+          },
+          {
+            "name": "Avg Income - Attrited",
+            "displayFolder": "KPIs",
+            "expression": "CALCULATE ( [Avg Monthly Income], HR[Attrition] = \"Yes\" )",
+            "formatString": "$#,0",
+            "lineageTag": "141b28ae-a958-4808-a195-d5ed652f9a7f"
+          },
+          {
+            "name": "Avg Income - Active",
+            "displayFolder": "KPIs",
+            "expression": "CALCULATE ( [Avg Monthly Income], HR[Attrition] = \"No\" )",
+            "formatString": "$#,0",
+            "lineageTag": "bf770921-aa88-4949-b24a-7b01b7c70af9"
+          }
+        ],
+        "partitions": [
+          {
+            "name": "HR",
+            "mode": "import",
+            "source": {
+              "expression": [
+                "let",
+                "    Source = Csv.Document(File.Contents(\"C:\\Users\\Admin\\Documents\\HR-Attrition-Dashboard\\data\\WA_Fn-UseC_-HR-Employee-Attrition.csv\"), [Delimiter=\",\", Columns=35, Encoding=65001, QuoteStyle=QuoteStyle.Csv]),",
+                "    Promoted = Table.PromoteHeaders(Source, [PromoteAllScalars=true]),",
+                "    Typed = Table.TransformColumnTypes(Promoted, {{\"Age\", Int64.Type}, {\"Attrition\", type text}, {\"BusinessTravel\", type text}, {\"DailyRate\", Int64.Type}, {\"Department\", type text}, {\"DistanceFromHome\", Int64.Type}, {\"Education\", Int64.Type}, {\"EducationField\", type text}, {\"EmployeeCount\", Int64.Type}, {\"EmployeeNumber\", Int64.Type}, {\"EnvironmentSatisfaction\", Int64.Type}, {\"Gender\", type text}, {\"HourlyRate\", Int64.Type}, {\"JobInvolvement\", Int64.Type}, {\"JobLevel\", Int64.Type}, {\"JobRole\", type text}, {\"JobSatisfaction\", Int64.Type}, {\"MaritalStatus\", type text}, {\"MonthlyIncome\", Int64.Type}, {\"MonthlyRate\", Int64.Type}, {\"NumCompaniesWorked\", Int64.Type}, {\"OverTime\", type text}, {\"PercentSalaryHike\", Int64.Type}, {\"PerformanceRating\", Int64.Type}, {\"RelationshipSatisfaction\", Int64.Type}, {\"StandardHours\", Int64.Type}, {\"StockOptionLevel\", Int64.Type}, {\"TotalWorkingYears\", Int64.Type}, {\"TrainingTimesLastYear\", Int64.Type}, {\"WorkLifeBalance\", Int64.Type}, {\"YearsAtCompany\", Int64.Type}, {\"YearsInCurrentRole\", Int64.Type}, {\"YearsSinceLastPromotion\", Int64.Type}, {\"YearsWithCurrManager\", Int64.Type}}, \"en-US\"),",
+                "    Removed = Table.RemoveColumns(Typed, {\"EmployeeCount\", \"Over18\", \"StandardHours\"}),",
+                "    AddFlag = Table.AddColumn(Removed, \"AttritionFlag\", each if [Attrition] = \"Yes\" then 1 else 0, Int64.Type),",
+                "    AddAgeBand = Table.AddColumn(AddFlag, \"Age Band\", each if [Age] < 25 then \"18-24\" else if [Age] < 35 then \"25-34\" else if [Age] < 45 then \"35-44\" else if [Age] < 55 then \"45-54\" else \"55+\", type text),",
+                "    AddAgeSort = Table.AddColumn(AddAgeBand, \"Age Band Sort\", each if [Age] < 25 then 1 else if [Age] < 35 then 2 else if [Age] < 45 then 3 else if [Age] < 55 then 4 else 5, Int64.Type),",
+                "    AddIncBand = Table.AddColumn(AddAgeSort, \"Income Band\", each if [MonthlyIncome] < 3000 then \"< 3K\" else if [MonthlyIncome] < 6000 then \"3K - 6K\" else if [MonthlyIncome] < 10000 then \"6K - 10K\" else if [MonthlyIncome] < 15000 then \"10K - 15K\" else \"15K+\", type text),",
+                "    AddIncSort = Table.AddColumn(AddIncBand, \"Income Band Sort\", each if [MonthlyIncome] < 3000 then 1 else if [MonthlyIncome] < 6000 then 2 else if [MonthlyIncome] < 10000 then 3 else if [MonthlyIncome] < 15000 then 4 else 5, Int64.Type),",
+                "    AddTenBand = Table.AddColumn(AddIncSort, \"Tenure Band\", each if [YearsAtCompany] < 2 then \"0-1 yrs\" else if [YearsAtCompany] < 5 then \"2-4 yrs\" else if [YearsAtCompany] < 10 then \"5-9 yrs\" else if [YearsAtCompany] < 20 then \"10-19 yrs\" else \"20+ yrs\", type text),",
+                "    AddTenSort = Table.AddColumn(AddTenBand, \"Tenure Band Sort\", each if [YearsAtCompany] < 2 then 1 else if [YearsAtCompany] < 5 then 2 else if [YearsAtCompany] < 10 then 3 else if [YearsAtCompany] < 20 then 4 else 5, Int64.Type),",
+                "    AddJS = Table.AddColumn(AddTenSort, \"Job Satisfaction Level\", each if [JobSatisfaction]=1 then \"1 - Low\" else if [JobSatisfaction]=2 then \"2 - Medium\" else if [JobSatisfaction]=3 then \"3 - High\" else \"4 - Very High\", type text),",
+                "    AddES = Table.AddColumn(AddJS, \"Environment Satisfaction Level\", each if [EnvironmentSatisfaction]=1 then \"1 - Low\" else if [EnvironmentSatisfaction]=2 then \"2 - Medium\" else if [EnvironmentSatisfaction]=3 then \"3 - High\" else \"4 - Very High\", type text),",
+                "    AddWLB = Table.AddColumn(AddES, \"Work-Life Balance Level\", each if [WorkLifeBalance]=1 then \"1 - Bad\" else if [WorkLifeBalance]=2 then \"2 - Good\" else if [WorkLifeBalance]=3 then \"3 - Better\" else \"4 - Best\", type text),",
+                "    AddTravel = Table.AddColumn(AddWLB, \"Business Travel\", each if [BusinessTravel]=\"Travel_Rarely\" then \"Travels Rarely\" else if [BusinessTravel]=\"Travel_Frequently\" then \"Travels Frequently\" else \"Non-Travel\", type text)",
+                "in",
+                "    AddTravel"
+              ],
+              "type": "m"
+            }
+          }
+        ]
+      }
+    ]
+  }
+}
