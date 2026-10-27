@@ -260,7 +260,7 @@ All 13 measures, exactly as they appear in `model.bim` (display folder `KPIs`):
 4. Click **Refresh** on the Home ribbon. The data cache (`.pbi/cache.abf`) isn't committed, so the first open needs a refresh.
 5. If Power BI offers to upgrade the project format, either choice works.
 
-Need a single shareable file? Use **File → Save as → `.pbix`**.
+**Quickest option:** download [`HR Attrition Dashboard.pbix`](HR%20Attrition%20Dashboard.pbix) (single file, data included) and open it in Power BI Desktop. No clone or path change needed.
 
 ---
 
